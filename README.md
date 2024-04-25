@@ -2,9 +2,7 @@
 `[code][/code]`ブロックに対しシンタックスハイライトをつけます。
 
 ## build
-highlight.jsのビルドが必要です。
 ``` shell
-cd highlight.js
-npm run build-browser
+npm run build
 ```
 
