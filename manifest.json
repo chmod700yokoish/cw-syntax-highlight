@@ -1,0 +1,13 @@
+{
+  "name": "Code Block Syntax Highlight",
+  "description": "apply highlight.js to code block.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*.chatwork.com/*"],
+      "css": ["highlight.js/src/styles/github.css"],
+      "js": ["highlight.js/build/highlight.js", "index.js"]
+    }
+  ]
+}
