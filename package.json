@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd highlight.js && npm run build-browser"
+    "build": "cd highlight.js && npm run build-browser",
+    "format": "biome format --write ./index.js",
+    "lint": "biome lint --apply ./index.js"
   },
   "keywords": [],
   "author": "",
